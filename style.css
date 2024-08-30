@@ -3,26 +3,25 @@
 	position:relative;
 
 }
-/* Default styles (for larger screens) */
-body {
+/* Mobile styles */
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* Tablet styles */
+@media (min-width: 601px) and (max-width: 1024px) {
+  body {
     font-size: 16px;
-    padding: 20px;
+  }
 }
 
-/* Styles for devices with a screen width of 768px or less (tablets and mobile) */
-@media (max-width: 768px) {
-    body {
-        font-size: 14px;
-        padding: 10px;
-    }
-}
-
-/* Styles for devices with a screen width of 480px or less (mobile) */
-@media (max-width: 480px) {
-    body {
-        font-size: 12px;
-        padding: 5px;
-    }
+/* Laptop and desktop styles */
+@media (min-width: 1025px) {
+  body {
+    font-size: 18px;
+  }
 }
 .image-container {
             position: relative;
