@@ -59,33 +59,6 @@ img {
             padding: 20px;
         }
 
-        /* Left side (text) */
-        .left {
-            flex: 1;
-            padding-right: 20px;
-            padding-top: 25px;
-            font-size: 15px;
-            color:lightgray;
-        }
-        .left h2 {
-        	padding-bottom: 10px;
-        	font-size: 30px;
-        	color:white;
-        }
-
-        /* Right side (image) */
-        .right {
-            flex:1;
-        }
-
-        /* Image styling */
-        .right img {
-            width: 100%;
-            height: 150%;
-            padding-top: 25px;
-            border-radius: 8px; /* Optional: adds rounded corners */
-        }
-
 
         .right1 {
             flex:1;
